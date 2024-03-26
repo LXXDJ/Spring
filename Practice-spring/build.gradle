@@ -19,9 +19,6 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     annotationProcessor(compileOnly 'org.projectlombok:lombok:1.18.24')
-
-    // https://mvnrepository.com/artifact/jakarta.annotation/jakarta.annotation-api
-    implementation 'jakarta.annotation:jakarta.annotation-api:2.1.1'
 }
 
 test {
