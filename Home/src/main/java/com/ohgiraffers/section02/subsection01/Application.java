@@ -1,10 +1,9 @@
-package com.ohgiraffers.section02.initdestroy.subsection01.java;
+package com.ohgiraffers.section02.subsection01;
 
 import com.ohgiraffers.common.Beverage;
 import com.ohgiraffers.common.Bread;
 import com.ohgiraffers.common.Product;
 import com.ohgiraffers.common.ShoppingCart;
-import com.ohgiraffers.section02.initdestroy.subsection02.annotation.ContextConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -14,20 +13,15 @@ public class Application {
 
         Product carpBread = context.getBean("carpBread", Bread.class);
         Product milk = context.getBean("milk", Beverage.class);
-        Product water = context.getBean("water", Beverage.class);
 
         ShoppingCart cart1 = context.getBean("cart", ShoppingCart.class);
         cart1.addItem(carpBread);
-        cart1.addItem(milk);
-        cart1.addItem(water);
-
-        System.out.println("cart1에 담긴 item : " + cart1.getItem());
+        System.out.println("cart1.getItem() = " + cart1.getItem());
 
         ShoppingCart cart2 = context.getBean("cart", ShoppingCart.class);
         cart2.addItem(milk);
+        System.out.println("cart2.getItem() = " + cart2.getItem());
 
-        System.out.println("cart2에 담긴 item : " + cart2.getItem());
-
-        ((AnnotationConfigApplicationContext) context).close();
+        ((AnnotationConfigApplicationContext)context).close();
     }
 }

@@ -9,15 +9,9 @@ import org.springframework.stereotype.Service;
 public class PoketmonService {
 
     /* 필드 주입 방식 */
-//    @Autowired
-//    @Qualifier("pikachu")   // @Qualifier가 @Primary 보다 우선 동작
-    private Poketmon poketmon;
-
-    /* 생성자 주입 방식 */
     @Autowired
-    public PoketmonService(@Qualifier("squirtle") Poketmon poketmon){
-        this.poketmon = poketmon;
-    }
+    @Qualifier("squirtle")   // @Qualifier가 @Primary 보다 우선 동작
+    private Poketmon poketmon;
 
     public void poketmonAttack(){
         poketmon.attack();
