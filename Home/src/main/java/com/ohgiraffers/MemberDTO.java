@@ -1,13 +1,13 @@
-package com.ohgiraffers.common;
+package com.ohgiraffers;
 
 import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Setter
 @Getter
+@Setter
 @ToString
-public abstract class Product {
+public class MemberDTO {
+    private Long id;
     private String name;
-    private int price;
 }
