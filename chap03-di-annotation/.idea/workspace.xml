@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df5ea464-8e50-497a-bc97-e32c9a8910e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/annotation/subsection02/qualifier/PoketmonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/annotation/subsection02/qualifier/PoketmonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Home/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Home/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Home/src/main/java/com/ohgiraffers/section01/subsection01/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Home/src/main/java/com/ohgiraffers/section01/subsection01/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chap03-di-annotation" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -40,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/lecture_code/Spring/chap03-di-annotation",
+    "last_opened_file_path": "C:/dev/Spring/chap02-dependency-injection",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,7 +66,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-17.0.10-temurin-17.0.10-f644763e9732-8a10ee56" />
       </set>
     </attachedChunks>
   </component>
@@ -66,6 +80,7 @@
       <updated>1711542529510</updated>
       <workItem from="1711542531916" duration="461000" />
       <workItem from="1711543045621" duration="14000" />
+      <workItem from="1711591417443" duration="25000" />
     </task>
     <servers />
   </component>
